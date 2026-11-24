@@ -4,11 +4,18 @@ Writes the single error line to entry.txt in the output directory
 ($MAKEFUN_OUTPUT_DIR, default /output). Stdlib only, deterministic.
 
 The entry (99 chars; three revision passes: the punch "47 open tabs"
-now lands at char 16 instead of buried mid-sentence, the failure is
+now lands at char 21 instead of buried mid-sentence, the failure is
 named in the first three words, and the second sentence is the fix):
 
     Out of memory: your 47 open tabs finally crushed the app. Close a
     few and we'll both breathe again.
+
+Anatomy, measured on the final line (1-based character positions):
+- chars 1-14: "Out of memory:" names the real failure first.
+- chars 21-32: "47 open tabs" is the punch — concrete, universal.
+- chars 41-48: "crushed" says what happened to the app.
+- chars 58-99: "Close a few and we'll both breathe again." is the
+  fix, never an explanation of the joke.
 
 Why this line: it names the real failure in plain words ("Out of
 memory", the app crashed) in the first three words, it turns on a

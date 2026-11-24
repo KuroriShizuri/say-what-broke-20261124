@@ -13,7 +13,9 @@ Pot: **$2** · Deadline: **24 Nov 2026 19:25 UTC (25 Nov 02:25 WIB)** · Entry f
   tabs open. Close a few and we'll both breathe again.") to 99 chars;
   (2) failure named concretely and first — "Out of memory" in the
   first three words, "crushed the app" says what happened; (3) twist
-  moved early — the punch "47 open tabs" lands at char 16, and the
+  moved early — the punch "47 open tabs" lands at char 21 (measured;
+  an earlier draft of this note said 16 — corrected by the coordinator
+  after the EGM review flagged it), and the
   second sentence is the fix, never an explanation of the joke.
 - Scores against the brief: names the real failure in plain words
   (out of memory, app crashed); tells the reader what to do next
